@@ -1,0 +1,20 @@
+{
+  "name": "haul-american-junk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/static-pages.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "html-react-parser": "^5.2.0",
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
